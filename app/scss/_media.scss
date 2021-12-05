@@ -1,0 +1,166 @@
+@media (max-width: 1000px) {
+
+  .favorites__item-btn,
+  .favorites__item-btn2 {
+    padding: 15px 20px;
+  }
+
+  .menu__item {
+    margin-right: 10px;
+  }
+
+  .favorites__items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .favorites__buttons {
+    flex-wrap: wrap;
+    gap: 10%;
+  }
+
+  .favorites__item {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 750px) {
+  .stories__form {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .burger__btn {
+    display: block;
+    z-index: 11;
+  }
+
+  .header__top {
+    position: relative;
+  }
+
+  .nav {
+    display: inline-block;
+    position: absolute;
+    background-color: #fff;
+    top: 60px;
+    z-index: 10;
+    width: 100%;
+    transform: translateY(-150%);
+    transition: all .5s;
+  }
+
+  .nav.burger__active {
+    transform: translateY(0);
+  }
+
+  .menu__item {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+  }
+
+  .menu__list {
+    text-align: center;
+  }
+
+  .header__log {
+    justify-content: center;
+
+    a {
+      margin: 0;
+    }
+
+    .header__log-faq {
+      padding: 0 20px 20px;
+    }
+  }
+
+  .header__title {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+
+}
+
+@media (max-width: 530px) {
+  .slider__arrivals-infolink {
+    padding: 15px 20px;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    gap: 10px;
+
+  }
+
+  .header__btn {
+    display: block;
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  .header__info {
+    bottom: 6px;
+  }
+
+  .header__title {
+    font-size: 20px;
+    line-height: 15px;
+    margin: 0;
+  }
+
+  .header__text {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .favorites__item-btns {
+    top: 110px;
+  }
+
+  .header__buttons {
+    margin: 0 auto;
+  }
+
+  .title-all {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .slider__collection-infolink {
+    padding: 10px 40px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .slider__collection-items {
+    margin-bottom: 30px;
+  }
+
+  .slider__collection {
+    margin-top: 60px;
+  }
+
+  .slider__arrivals-items {
+    margin-bottom: 30px;
+  }
+
+  .stories__input {
+    padding-left: 30px;
+  }
+
+  .slider__stories-items {
+    margin-bottom: 80px;
+  }
+}

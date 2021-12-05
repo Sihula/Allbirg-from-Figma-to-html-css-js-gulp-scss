@@ -30,6 +30,32 @@
 .nav {
   display: flex;
   align-items: center;
+
+}
+
+.burger {
+
+  &__btn {
+    width: 30px;
+    cursor: pointer;
+    display: none;
+  }
+
+  &__lin-1 {
+    height: 2px;
+    background-color: $text;
+  }
+
+  &__lin-2 {
+    height: 2px;
+    background-color: $text;
+    margin: 6px 0;
+  }
+
+  &__lin-3 {
+    height: 2px;
+    background-color: $text;
+  }
 }
 
 .menu {
@@ -501,3 +527,41 @@
   color: #74797C;
   margin-bottom: 48px;
 }
+
+// footer start
+.footer {
+  &__inner {
+
+    background-color: $text;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 70px 20px 40px;
+
+  }
+
+  &__inner-list {
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+
+  &__inner-itemtitle {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 21px;
+  }
+
+  &__inner-item {
+    font-size: 11px;
+    line-height: 12px;
+    margin-bottom: 16px;
+  }
+
+
+}
+
+
+@import 'media';
